@@ -1,31 +1,33 @@
+import requests
 import json
 from datetime import datetime
 
-def run_scraper():
-    # 這是目前的模擬資料，之後我們可以改寫成自動抓取 104
-    data = {
-        "last_update": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "jobs": [
-            {
-                "hospital": "台中榮民總醫院",
-                "title": "契約呼吸治療師 (RT)",
-                "location": "台中市西屯區",
-                "salary": "23-37 級薪資制",
-                "link": "https://www.vghtc.gov.tw/UnitPage/UnitArcticle?WebMenuID=2d99905d-e85d-4f81-9b19-c09a3653f538"
-            },
-            {
-                "hospital": "台北榮民總醫院",
-                "title": "呼吸治療師",
-                "location": "台北市北投區",
-                "salary": "面議",
-                "link": "https://www.vghtpe.gov.tw"
-            }
-        ]
-    }
+def fetch_essential_jobs():
+    # 搜尋「呼吸治療師」
+    url = "https://www.104.com.tw/jobs/search/list?ro=0&kw=呼吸治療師&mode=s"
+    headers = {'Referer': 'https://www.104.com.tw/', 'User-Agent': 'Mozilla/5.0'}
     
+    clean_jobs = []
+    try:
+        res = requests.get(url, headers=headers)
+        items = res.json().get('data', {}).get('list', [])
+        for i in items:
+            clean_jobs.append({
+                "hospital": i['custName'],
+                "location": i['jobAddrNoDesc'], # 例如：台中市西屯區
+                "city": i['jobAddrNoDesc'][:3], # 提取「台中市」
+                "salary": i['salaryDesc'],      # 例如：月薪 45,000 元以上
+                "link": f"https:{i['link']['job']}"
+            })
+    except:
+        pass
+    
+    output = {
+        "last_update": datetime.now().strftime("%Y-%m-%d"),
+        "jobs": clean_jobs
+    }
     with open('jobs.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-    print("職缺資料更新成功！")
+        json.dump(output, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    run_scraper()
+    fetch_essential_jobs()
