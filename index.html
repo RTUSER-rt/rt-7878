@@ -3,23 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>全台 RT 職缺互動導航</title>
+    <title>RT 職缺全台導航</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .city-btn.active { background-color: #2563eb; color: white; border-color: #2563eb; }
-        .job-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-        .job-card:hover { transform: translateY(-4px); }
+        .job-card { transition: all 0.3s ease; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
 
-    <!-- 頂部導覽 -->
     <nav class="bg-slate-900 text-white p-4 sticky top-0 z-50 shadow-xl">
         <div class="container mx-auto flex justify-between items-center">
             <div>
-                <h1 class="font-black text-xl tracking-tighter">RT JOB TAIWAN</h1>
-                <p id="update-time" class="text-[10px] opacity-50">資料載入中...</p>
+                <h1 class="font-black text-xl tracking-tight">RT JOB TAIWAN</h1>
+                <p id="update-time" class="text-[10px] opacity-50">載入中...</p>
             </div>
             <div id="status-tag" class="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full border border-blue-500/30">
                 請選擇縣市
@@ -28,56 +26,25 @@
     </nav>
 
     <main class="container mx-auto p-4 max-w-6xl">
-        
-        <!-- 縣市選擇區 (全台行政區) -->
+        <!-- 縣市選擇區 -->
         <div class="bg-white p-6 rounded-3xl shadow-sm mb-8 border border-slate-200">
-            <h3 class="text-sm font-bold text-slate-400 mb-4 uppercase tracking-widest"><i class="fa-solid fa-map-marked-alt mr-2"></i>點擊縣市查看職缺</h3>
-            
-            <div class="space-y-4">
-                <!-- 北部 -->
-                <div>
-                    <p class="text-[10px] font-bold text-slate-400 mb-2">北部地區</p>
-                    <div class="flex flex-wrap gap-2">
-                        <button onclick="filterCity('台北市', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">基隆/台北/新北</button>
-                        <button onclick="filterCity('桃園市', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">桃園</button>
-                        <button onclick="filterCity('新竹', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">新竹縣市</button>
-                    </div>
-                </div>
-                <!-- 中部 -->
-                <div>
-                    <p class="text-[10px] font-bold text-slate-400 mb-2">中部地區</p>
-                    <div class="flex flex-wrap gap-2">
-                        <button onclick="filterCity('台中市', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">台中</button>
-                        <button onclick="filterCity('彰化', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">彰化/南投</button>
-                        <button onclick="filterCity('雲林', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">雲林</button>
-                    </div>
-                </div>
-                <!-- 南部 -->
-                <div>
-                    <p class="text-[10px] font-bold text-slate-400 mb-2">南部地區</p>
-                    <div class="flex flex-wrap gap-2">
-                        <button onclick="filterCity('嘉義', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">嘉義</button>
-                        <button onclick="filterCity('台南', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">台南</button>
-                        <button onclick="filterCity('高雄', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">高雄</button>
-                        <button onclick="filterCity('屏東', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">屏東</button>
-                    </div>
-                </div>
-                <!-- 東部/離島 -->
-                <div>
-                    <p class="text-[10px] font-bold text-slate-400 mb-2">東部與離島</p>
-                    <div class="flex flex-wrap gap-2">
-                        <button onclick="filterCity('宜蘭', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">宜蘭/花東</button>
-                        <button onclick="filterCity('離島', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm hover:border-blue-500 transition">離島地區</button>
-                    </div>
-                </div>
+            <h3 class="text-xs font-bold text-slate-400 mb-4 uppercase tracking-widest">區域篩選</h3>
+            <div class="flex flex-wrap gap-2">
+                <button onclick="filterCity('台北', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">台北/新北</button>
+                <button onclick="filterCity('桃園', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">桃園</button>
+                <button onclick="filterCity('新竹', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">新竹</button>
+                <button onclick="filterCity('台中', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">台中</button>
+                <button onclick="filterCity('彰化', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">彰化</button>
+                <button onclick="filterCity('台南', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">台南</button>
+                <button onclick="filterCity('高雄', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">高雄</button>
+                <button onclick="filterCity('宜蘭', this)" class="city-btn border border-slate-200 px-4 py-2 rounded-xl text-sm">宜蘭/花東</button>
             </div>
         </div>
 
-        <!-- 職缺顯示區 -->
+        <!-- 職缺清單 -->
         <div id="job-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="col-span-full text-center py-20 text-slate-400">
-                <i class="fa-solid fa-arrow-up text-4xl mb-4 block animate-bounce"></i>
-                請選擇上方縣市，查看當前 RT 職缺與薪資行情
+                <p>請點擊上方按鈕查看各區 RT 職缺</p>
             </div>
         </div>
     </main>
@@ -85,67 +52,54 @@
     <script>
         let allJobs = [];
 
-        async function loadInitialData() {
+        async function loadJobs() {
             try {
-                const response = await fetch('./jobs.json');
+                // 加上時間戳防止瀏覽器快取舊資料
+                const response = await fetch(`./jobs.json?t=${new Date().getTime()}`);
                 const data = await response.json();
                 allJobs = data.jobs;
                 document.getElementById('update-time').innerText = `最後更新：${data.last_update}`;
             } catch (e) {
-                console.error("無法讀取職缺資料");
+                document.getElementById('job-list').innerHTML = '<p class="col-span-full text-center py-20">資料載入失敗，請確認 Action 是否執行成功。</p>';
             }
         }
 
         function filterCity(cityName, btn) {
-            // 切換按鈕樣式
             document.querySelectorAll('.city-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            
             document.getElementById('status-tag').innerText = `正在查看：${cityName}`;
 
-            const filtered = allJobs.filter(job => job.city.includes(cityName) || job.location.includes(cityName));
+            const filtered = allJobs.filter(job => job.city.includes(cityName));
             const container = document.getElementById('job-list');
 
             if (filtered.length === 0) {
-                container.innerHTML = `
-                    <div class="col-span-full text-center py-20 bg-white rounded-3xl border border-dashed">
-                        <p class="text-slate-400">目前 ${cityName} 暫無公開之 RT 職缺資料</p>
-                    </div>`;
+                container.innerHTML = `<div class="col-span-full text-center py-20 text-slate-400 border-2 border-dashed rounded-3xl">目前 ${cityName} 暫無公開職缺</div>`;
                 return;
             }
 
             container.innerHTML = filtered.map(job => `
-                <div class="job-card bg-white rounded-3xl p-6 shadow-sm border border-slate-100 flex flex-col justify-between">
+                <div class="job-card bg-white rounded-3xl p-6 shadow-sm border border-slate-100 flex flex-col justify-between hover:shadow-md">
                     <div>
                         <div class="flex justify-between items-center mb-4">
-                            <span class="bg-blue-600 text-white font-bold px-3 py-1 rounded-full text-[10px]">
-                                <i class="fa-solid fa-location-dot mr-1"></i> ${job.city}
-                            </span>
-                            <span class="text-[9px] text-slate-400 bg-slate-50 px-2 py-1 rounded tracking-widest">${job.source}</span>
+                            <span class="bg-blue-600 text-white font-bold px-3 py-1 rounded-full text-[10px]">${job.city}</span>
+                            <span class="text-[9px] text-slate-400 bg-slate-50 px-2 py-1 rounded uppercase">${job.source}</span>
                         </div>
                         <h2 class="text-lg font-black text-slate-800 mb-2 leading-tight">${job.hospital}</h2>
-                        
                         <div class="bg-emerald-50 p-4 rounded-2xl mb-4">
-                            <p class="text-[9px] text-emerald-600 font-black uppercase tracking-widest mb-1">區域薪資參考</p>
+                            <p class="text-[9px] text-emerald-600 font-bold mb-1">預估起薪</p>
                             <p class="text-xl font-black text-emerald-700 tracking-tighter">${job.salary}</p>
                         </div>
                     </div>
-
                     <div>
-                        <div class="border-t border-dashed border-slate-100 pt-4 mb-6">
-                            <p class="text-xs text-slate-500 italic leading-relaxed">
-                                <i class="fa-solid fa-comment-dots text-blue-300 mr-2"></i>${job.review || '目前暫無評論。'}
-                            </p>
-                        </div>
-                        <a href="${job.link}" target="_blank" class="block text-center bg-slate-900 text-white font-bold py-3 rounded-2xl hover:bg-blue-600 transition shadow-lg shadow-slate-200 text-sm">
-                            立即應徵詳情
-                        </a>
+                        <p class="text-xs text-slate-500 italic mb-6 leading-relaxed">
+                            <i class="fa-solid fa-comment-dots text-blue-300 mr-2"></i>${job.review}
+                        </p>
+                        <a href="${job.link}" target="_blank" class="block text-center bg-slate-900 text-white font-bold py-3 rounded-2xl hover:bg-blue-600 transition text-sm">查看詳情</a>
                     </div>
                 </div>
             `).join('');
         }
-
-        loadInitialData();
+        loadJobs();
     </script>
 </body>
 </html>
