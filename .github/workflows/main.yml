@@ -1,31 +1,34 @@
 name: Daily Job Update
-
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天早上 8 點自動執行 (UTC+0 換算)
-  workflow_dispatch:      # 允許你在 GitHub 介面手動點擊執行
+    - cron: '0 */6 * * *' # 每 6 小時執行一次
+  workflow_dispatch: # 允許手動點擊執行
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # 賦予寫入權限，才能更新 jobs.json
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4 pandas
 
       - name: Run Scraper
         run: python scraper.py
 
-      - name: Commit and Push if Changed
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name "RT-Bot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
           git add jobs.json
-          git commit -m "自動更新職缺列表: $(date +'%Y-%m-%d %H:%M')" || exit 0
+          git commit -m "自動更新全台職缺列表: $(date +'%Y-%m-%d %H:%M')" || exit 0
           git push
