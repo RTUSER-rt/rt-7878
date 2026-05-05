@@ -1,19 +1,4 @@
 {
-    "last_update": "2026-05-05 01:56",
-    "jobs": [
-        {
-            "hospital": "台中榮民總醫院",
-            "title": "契約呼吸治療師 (RT)",
-            "location": "台中市西屯區",
-            "salary": "23-37 級薪資制",
-            "link": "https://www.vghtc.gov.tw/UnitPage/UnitArcticle?WebMenuID=2d99905d-e85d-4f81-9b19-c09a3653f538"
-        },
-        {
-            "hospital": "台北榮民總醫院",
-            "title": "呼吸治療師",
-            "location": "台北市北投區",
-            "salary": "面議",
-            "link": "https://www.vghtpe.gov.tw"
-        }
-    ]
+    "last_update": "2026-05-05 10:47",
+    "jobs": []
 }
