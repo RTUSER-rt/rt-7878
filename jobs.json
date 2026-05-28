@@ -1,6 +1,6 @@
 {
-  "last_update": "2026-05-28 10:16 (cached)",
-  "total": 26,
+  "last_update": "2026-05-28 14:00",
+  "total": 65,
   "jobs": [
     {
       "title": "呼吸治療師",
@@ -73,6 +73,46 @@
       "date": "2025-11-29"
     },
     {
+      "title": "呼吸治療室呼吸治療師",
+      "hospital": "振興醫療財團法人振興醫院",
+      "city": "台北市",
+      "location": "台北市北投區",
+      "salary": "月薪42,000~54,500元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "呼吸治療師（週休二日）",
+      "hospital": "好康居家呼吸照護所",
+      "city": "台北市",
+      "location": "台北市中正區",
+      "salary": "月薪50,000元以上",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-19"
+    },
+    {
+      "title": "美悅居家呼吸照護所-呼吸治療師",
+      "hospital": "保健安居家醫療體系_美達居家護理所",
+      "city": "台北市",
+      "location": "台北市大同區",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "呼吸治療師",
+      "hospital": "聯杏股份有限公司",
+      "city": "台北市",
+      "location": "台北市內湖區",
+      "salary": "月薪43,000~48,000元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-26"
+    },
+    {
       "title": "【新店耕莘】呼吸治療室-呼吸治療師 (滿1年/年薪約78.2萬起)",
       "hospital": "天主教耕莘醫療財團法人耕莘醫院",
       "city": "新北市",
@@ -103,6 +143,16 @@
       "date": "2026-05-21"
     },
     {
+      "title": "汐止分院 呼吸治療中心 呼吸治療師",
+      "hospital": "國泰醫療財團法人國泰綜合醫院",
+      "city": "新北市",
+      "location": "新北市汐止區",
+      "salary": "月薪46,300~48,499元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-27"
+    },
+    {
       "title": "[呼吸治療科]呼吸治療師(職代)",
       "hospital": "行天宮醫療志業醫療財團法人恩主公醫院",
       "city": "新北市",
@@ -123,6 +173,56 @@
       "date": "2026-05-22"
     },
     {
+      "title": "呼吸治療師",
+      "hospital": "豐榮醫院",
+      "city": "新北市",
+      "location": "新北市新店區",
+      "salary": "月薪38,500~45,000元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "美心居家呼吸照護所-呼吸治療師",
+      "hospital": "保健安居家醫療體系_美達居家護理所",
+      "city": "新北市",
+      "location": "新北市新莊區",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "美善居家護理所-呼吸治療師",
+      "hospital": "保健安居家醫療體系_美達居家護理所",
+      "city": "新北市",
+      "location": "新北市林口區",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "呼吸治療師-週休二日(淡水)",
+      "hospital": "樂活居家照護團隊_慈康居家護理所",
+      "city": "新北市",
+      "location": "新北市淡水區",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-19"
+    },
+    {
+      "title": "淡水院區 呼吸治療 呼吸治療師",
+      "hospital": "馬偕紀念醫院",
+      "city": "新北市",
+      "location": "新北市淡水區",
+      "salary": "月薪56,100元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-25"
+    },
+    {
       "title": "內科部 呼吸治療師-數名",
       "hospital": "臺北市立萬芳醫院-委託臺北醫學大學辦理",
       "city": "台北市",
@@ -133,6 +233,16 @@
       "date": "2026-05-27"
     },
     {
+      "title": "衛生福利部桃園醫院呼吸治療科約用呼吸治療師3名",
+      "hospital": "衛生福利部桃園醫院",
+      "city": "桃園市",
+      "location": "桃園市桃園區",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-04-10"
+    },
+    {
       "title": "呼吸治療師",
       "hospital": "聯安居家護理所",
       "city": "桃園市",
@@ -141,6 +251,36 @@
       "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
       "source": "104",
       "date": "2026-04-28"
+    },
+    {
+      "title": "高端科技睡眠中心_睡眠呼吸治療師",
+      "hospital": "聯新國際醫院（原壢新醫院）",
+      "city": "桃園市",
+      "location": "桃園市平鎮區",
+      "salary": "月薪37,500~40,200元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "【竹馬】呼吸治療組-呼吸治療師",
+      "hospital": "台灣基督長老教會馬偕醫療財團法人新竹馬偕紀念醫院",
+      "city": "新竹市",
+      "location": "新竹市",
+      "salary": "月薪47,500~52,700元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "71A0-內科部呼吸治療科 呼吸治療師",
+      "hospital": "中國醫藥大學新竹附設醫院",
+      "city": "新竹縣",
+      "location": "新竹縣竹北市",
+      "salary": "月薪41,000~44,000元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-26"
     },
     {
       "title": "呼吸治療師",
@@ -173,6 +313,46 @@
       "date": "2026-05-25"
     },
     {
+      "title": "呼吸治療師(向上院區)",
+      "hospital": "光田醫療社團法人光田綜合醫院",
+      "city": "台中市",
+      "location": "台中市沙鹿區",
+      "salary": "月薪51,000~64,000元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "呼吸治療師(大甲院區)",
+      "hospital": "光田醫療社團法人光田綜合醫院",
+      "city": "台中市",
+      "location": "台中市大甲區",
+      "salary": "月薪51,000~64,000元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-28"
+    },
+    {
+      "title": "L1X1-兒醫胸腔科 呼吸治療師",
+      "hospital": "中國醫藥大學附設醫院",
+      "city": "台中市",
+      "location": "台中市北區",
+      "salary": "月薪48,000元以上",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-23"
+    },
+    {
+      "title": "呼吸治療科-呼吸治療師",
+      "hospital": "仁愛醫療財團法人大里仁愛醫院",
+      "city": "台中市",
+      "location": "台中市大里區",
+      "salary": "月薪50,000~52,000元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-26"
+    },
+    {
       "title": "呼吸治療師",
       "hospital": "林新醫療社團法人烏日林新醫院",
       "city": "台中市",
@@ -181,6 +361,26 @@
       "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
       "source": "104",
       "date": "2026-05-26"
+    },
+    {
+      "title": "呼吸治療師-職代(無大夜)",
+      "hospital": "林新醫療社團法人烏日林新醫院",
+      "city": "台中市",
+      "location": "台中市烏日區",
+      "salary": "月薪46,000元以上",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "慧安居家呼吸治療師",
+      "hospital": "長春健康事業有限公司",
+      "city": "台中市",
+      "location": "台中市南屯區",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-28"
     },
     {
       "title": "呼吸治療師",
@@ -203,14 +403,64 @@
       "date": "2026-05-15"
     },
     {
-      "title": "柳營奇美醫院 呼吸治療科 呼吸治療師",
-      "hospital": "奇美醫療財團法人柳營奇美醫院",
-      "city": "台南市",
-      "location": "台南市柳營區",
-      "salary": "月薪44,363元",
-      "link": "https://www.1111.com.tw/search/job?ks=%E6%9F%B3%E7%87%9F%E5%A5%87%E7%BE%8E+%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
-      "source": "1111",
+      "title": "[駐彰秀院區]呼吸治療室-呼吸治療師",
+      "hospital": "秀傳醫療體系_秀傳醫療社團法人秀傳紀念醫院",
+      "city": "彰化縣",
+      "location": "彰化縣彰化市",
+      "salary": "月薪47,800~49,700元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "[駐彰濱院區]呼吸治療室-呼吸治療師",
+      "hospital": "秀傳醫療體系_秀傳醫療社團法人秀傳紀念醫院",
+      "city": "彰化縣",
+      "location": "彰化縣鹿港鎮",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
       "date": "2026-05-28"
+    },
+    {
+      "title": "呼吸治療單位-呼吸治療師(員林基督教醫院)",
+      "hospital": "彰化基督教醫療財團法人彰化基督教醫院",
+      "city": "彰化縣",
+      "location": "彰化縣員林市",
+      "salary": "月薪42,800~48,800元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "呼吸治療師",
+      "hospital": "道周醫療社團法人道周醫院",
+      "city": "彰化縣",
+      "location": "彰化縣和美鎮",
+      "salary": "月薪36,000~45,000元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-24"
+    },
+    {
+      "title": "德欣居家護理所-呼吸治療師",
+      "hospital": "保健安居家醫療體系_美達居家護理所",
+      "city": "南投縣",
+      "location": "南投縣草屯鎮",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "嘉義區呼吸治療師",
+      "hospital": "喜樂康居家護理所",
+      "city": "嘉義市",
+      "location": "嘉義市",
+      "salary": "月薪45,000~55,000元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-25"
     },
     {
       "title": "呼吸治療師-週休二日(嘉義)",
@@ -223,14 +473,64 @@
       "date": "2026-05-19"
     },
     {
-      "title": "呼吸治療師",
-      "hospital": "道周醫療社團法人道周醫院",
-      "city": "彰化縣",
-      "location": "彰化縣和美鎮",
-      "salary": "月薪36,000~45,000元",
+      "title": "內科－約用呼吸治療師(夜間臨床業務)",
+      "hospital": "衛生福利部嘉義醫院",
+      "city": "嘉義市",
+      "location": "嘉義市",
+      "salary": "月薪45,467~51,000元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-28"
+    },
+    {
+      "title": "呼吸治療師(呼吸治療中心)",
+      "hospital": "天主教中華聖母修女會醫療財團法人天主教聖馬爾定醫院",
+      "city": "嘉義市",
+      "location": "嘉義市",
+      "salary": "月薪43,100元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "柳營奇美醫院 呼吸治療科 呼吸治療師",
+      "hospital": "奇美醫療財團法人柳營奇美醫院",
+      "city": "台南市",
+      "location": "台南市柳營區",
+      "salary": "月薪44,363元",
       "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
       "source": "1111",
-      "date": "2026-05-24"
+      "date": "2026-05-28"
+    },
+    {
+      "title": "【醫技】呼吸治療組-呼吸治療師",
+      "hospital": "台南市立醫院(委託秀傳醫療社團法人經營)",
+      "city": "台南市",
+      "location": "台南市東區",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "佳安居家護理所-呼吸治療師",
+      "hospital": "保健安居家醫療體系_美達居家護理所",
+      "city": "台南市",
+      "location": "台南市東區",
+      "salary": "月薪46,000元以上",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "約用呼吸治療師",
+      "hospital": "衛生福利部旗山醫院",
+      "city": "高雄市",
+      "location": "高雄市旗山區",
+      "salary": "月薪41,057~49,143元",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-27"
     },
     {
       "title": "呼吸治療師",
@@ -261,6 +561,26 @@
       "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
       "source": "104",
       "date": "2026-05-26"
+    },
+    {
+      "title": "呼吸治療師(康福居家護理所-高雄)",
+      "hospital": "博兆股份有限公司",
+      "city": "高雄市",
+      "location": "高雄市左營區",
+      "salary": "月薪45,000元以上",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "呼吸治療師",
+      "hospital": "右昌聯合醫院",
+      "city": "高雄市",
+      "location": "高雄市楠梓區",
+      "salary": "待遇面議",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-27"
     },
     {
       "title": "呼吸治療師",
@@ -294,6 +614,16 @@
     },
     {
       "title": "呼吸治療師",
+      "hospital": "枋寮醫療社團法人枋寮醫院",
+      "city": "屏東縣",
+      "location": "屏東縣枋寮鄉",
+      "salary": "待遇面議",
+      "link": "https://www.104.com.tw/jobs/search/?keyword=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "104",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "呼吸治療師",
       "hospital": "家宜居家護理所",
       "city": "宜蘭縣",
       "location": "宜蘭縣宜蘭市",
@@ -301,6 +631,16 @@
       "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
       "source": "1111",
       "date": "2026-05-27"
+    },
+    {
+      "title": "胸腔內科-呼吸治療師",
+      "hospital": "佛教慈濟醫療財團法人花蓮慈濟醫院",
+      "city": "花蓮縣",
+      "location": "花蓮縣花蓮市",
+      "salary": "月薪38,610~53,610元",
+      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
+      "source": "1111",
+      "date": "2026-05-25"
     },
     {
       "title": "呼吸治療師",
@@ -311,16 +651,6 @@
       "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
       "source": "1111",
       "date": "2026-05-26"
-    },
-    {
-      "title": "呼吸治療師",
-      "hospital": "右昌聯合醫院",
-      "city": "高雄市",
-      "location": "高雄市楠梓區",
-      "salary": "待遇面議",
-      "link": "https://www.1111.com.tw/search/job?ks=%E5%91%BC%E5%90%B8%E6%B2%BB%E7%99%82%E5%B8%AB",
-      "source": "1111",
-      "date": "2026-05-27"
     }
   ]
 }
